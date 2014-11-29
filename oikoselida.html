@@ -1,7 +1,22 @@
 
 <!DOCTYPE html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="description" content="" /><meta name="keywords" content="" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="description" content="" /><meta name="keywords" content="" />
+<script>
+function myFunction() {
+    
+//	document.getElementById("greek_button").href= "http://epl361.me-ff.info/main_ell_eng.html";
+//	document.getElementById("greek_button").innerHTML = "Paragraph changed.";
+	choice = Math.floor((Math.random() * 2) + 1);
+	//choice=1;
+	if (choice==1)
+	window.location.href = "main_ell_eng.html";
+	else
+	window.location.href = "main.htm";
+	
+}
+</script>
 <div id="wrapper">
 	<div id="header">
 		<div id="logo">
@@ -24,9 +39,10 @@
   <strong><br>Επιλογή Κύριας Γλώσσας</strong><br/>
    <br>
  Επιλέξετε την κύρια γλώσσα που επιθυμείτε πατώντας σε  ενα απο τα κουμπιά και ακολούθως θα εφανιστεί και random η δεύτερη γλώσσα όπου θα γίνει  η μεταγλώττιση για όλη την σελίδα</strong><br/></p>
-  <a href="main.htm">
-    <button class="greek_button"></button>
-    </a>
+  <!--a href="main.htm"-->
+    <button class="greek_button" id="greek_button" onclick="myFunction()" ></button>
+    
+    <!--/a-->
      
        <a href="main_english.html">
     <button class="english_button"></button>
