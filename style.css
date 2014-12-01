@@ -428,7 +428,7 @@ height: 100px;
 	height: 1070px;
 	position: relative;
 	padding: 10px 10px 5px 10px;
-	width: 100px;
+	width: 1000px;
 }
 
 #splash .pic {
@@ -437,7 +437,7 @@ height: 100px;
 
 #wrapper {
 	position: relative;
-	width: 1090px;
+	width: 1000px;
 	margin: 20px auto 0 auto;
 	background: #FFFFFF;
 }
