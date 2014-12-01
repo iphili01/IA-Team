@@ -168,7 +168,7 @@ height: 100px;
 	background: #6E6E6E url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img03.jpg) top left no-repeat;
 	padding: 45px;
 	color: #FFFFFF;
-	width: 888px;
+	width: 1000px;
 	border: solid 1px #7E7E7E;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -219,7 +219,7 @@ height: 100px;
 	margin: 0 0 0 0;
 	height: 60px;
 	line-height: 40px;
-	width: 890px;
+	width: 1000px;
 	border-top: solid 1px #5AD7D7;
 	text-shadow: 0 1px 1px #007D7D;
 }
@@ -319,6 +319,7 @@ height: 100px;
 	border: 0px}
 	
 #page-bottom {
+	margin-left: 184px;
 	position: relative;
 	margin: 0;
 	background: #6E6E6E url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img03.jpg) top left no-repeat;
@@ -427,7 +428,7 @@ height: 100px;
 	height: 1070px;
 	position: relative;
 	padding: 10px 10px 5px 10px;
-	width: 960px;
+	width: 100px;
 }
 
 #splash .pic {
@@ -436,7 +437,7 @@ height: 100px;
 
 #wrapper {
 	position: relative;
-	width: 980px;
+	width: 1090px;
 	margin: 20px auto 0 auto;
 	background: #FFFFFF;
 }
@@ -556,23 +557,23 @@ table.mytable1 td {
 		}
 	#email
 		{
-		margin-left:103px;
+		margin-left:232px;
 		}
 		
-	#name_first
+	#name_first.log_in
 	{
-	margin-left: 170px;	
+	margin-left: 361px;	
 	}	
-	#last_name{
-	margin-left: 163px;}
-	#dateofbirth{
-	margin-left: 37px;
+	#last_name.log_in{
+	margin-left: 332px;}
+	#dateofbirth.log_in{
+	margin-left: 200px;
 	}
-	#password{
-	margin-left: 54px;}
+	#password.log_in{
+	margin-left: 242px;}
 			
 	#username{
-	margin-left: 100px;}
+	margin-left: 277px;}
 	
 		<style>
 
@@ -607,10 +608,32 @@ table.mytable1 td {
 #menu_plai{
 	background-color: #209D9D;
 width: 169px;
-height: 200px;
+height: 210px;
 margin-top: -1191px;
 margin-left: 7px;
 text-shadow: 0 1px 1px #007D7D;
 border-top: solid 1px #5AD7D7;
 color: #FFFFFF;
 	}
+.box_main_translate
+{
+	margin-top: -783px;
+margin-left: 516px;
+width: 327px;}
+
+#advantage_translate
+{
+	margin-left: 526px;
+width: 327px;
+margin-top: 284px;}
+#skopos_translate
+{
+	margin-top: -472px;
+margin-left: 541px;
+width: 327px;
+}
+#id_translate{
+	margin-left: 252px;
+width: 380px;
+height: 400px;
+}
