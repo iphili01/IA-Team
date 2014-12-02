@@ -18,6 +18,38 @@ function myFunction() {
 	window.location.href = "main_greek_english.html";
 }
 </script>
+
+<script>
+function myFunction_1() {
+    
+//	document.getElementById("greek_button").href= "http://epl361.me-ff.info/main_ell_eng.html";
+//	document.getElementById("greek_button").innerHTML = "Paragraph changed.";
+	choice = Math.floor((Math.random() * 2) + 1);
+	//choice=1;
+	if (choice==1)
+		window.location.href = "main_english_greek.html";
+	
+	else
+
+	window.location.href = "main_english_french.html";
+}
+</script>
+
+<script>
+function myFunction_2() {
+    
+//	document.getElementById("greek_button").href= "http://epl361.me-ff.info/main_ell_eng.html";
+//	document.getElementById("greek_button").innerHTML = "Paragraph changed.";
+	choice = Math.floor((Math.random() * 2) + 1);
+	//choice=1;
+	if (choice==1)
+		window.location.href = "main_french_greek.html";
+	
+	else
+
+	window.location.href = "main_french_english.html";
+}
+</script>
 <div id="wrapper">
 	<div id="header">
 		<div id="logo">
@@ -28,7 +60,7 @@ function myFunction() {
 		<ul>
 <li class="index current active"><a href="oikoselida.html" title="oikoselida">Οικοσελίδα</a></li>
 
-<li class="menu"><a href="http://epl361.freeforums.net/" target="_blank">Forum/Forum</a></li>
+<li class="menu"><a href="http://epl361.freeforums.net/" target="_blank">Forum</a></li>
 <li class="sindesi"><a href="sindesi.html" title="Σύνδεση">Σύνδεση </a></li>
 <li class="eggrafi"><a href="eggrafi.html" title="Εγγραφή">Εγγραφή </a></li>
 </ul>
@@ -41,18 +73,18 @@ function myFunction() {
   <strong><br>Επιλογή Κύριας Γλώσσας</strong><br/>
    <br>
  Επιλέξετε την κύρια γλώσσα που επιθυμείτε πατώντας σε  ενα απο τα κουμπιά και ακολούθως θα εφανιστεί και random η δεύτερη γλώσσα όπου θα γίνει  η μεταγλώττιση για όλη την σελίδα</strong><br/></p>
-  <!--a href="main.htm"-->
+  <!--a href="main.htm"  <a href="main_english.html"> <a href="main_italian.html">-->
     <button class="greek_button" id="greek_button" onclick="myFunction()" ></button>
     
     <!--/a-->
      
-       <a href="main_english.html">
-    <button class="english_button"></button>
-    </a>
+     
+    <button class="english_button" onclick="myFunction_1()" ></button>
     
-      <a href="main_italian.html">
-    <button class="italian_button"></button>
-    </a>
+    
+     
+    <button class="italian_button" onclick="myFunction_2()"></button>
+    
    
 	  <p>
       <p><br class="clearfix" />
