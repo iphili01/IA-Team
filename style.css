@@ -643,6 +643,13 @@ color: #FFFFFF;
 	#firstname_g_f{margin-left:361px;}
 	#password_g_f{margin-left:171px;}
 	#username_g_f{margin-left:216px;}
+	#firstname_sketo{margin-left:341px;}
+	#last_name_sketo{margin-left:332px;}
+	#email_sketo{margin-left:209px;}
+	#dateofbirth_sketo{margin-left:222px;}
+	#username_sketo{margin-left: 277px;}
+	#password_sketo{
+	margin-left: 242px;}
 .box_main_translate
 {
 	margin-top: -789px;
@@ -656,6 +663,18 @@ width: 327px;
 margin-top: 284px;}
 #skopos_translate_f_g
 {margin-left:-47px;}
+
+#page-bottom_e_f
+{margin-left:0px !important;
+	position: relative;
+	margin: 0;
+	background:#6E6E6E url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img03.jpg)top left no-repeat;
+	border: solid 1px #7E7E7E;
+	width:999px;
+	padding:15px 45px 0 45px;
+	color: #DCDCDC;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;}
 #skopos_translate
 {
 	margin-top: -472px;
