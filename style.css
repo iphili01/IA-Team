@@ -663,7 +663,13 @@ width: 327px;
 margin-top: 284px;}
 #skopos_translate_f_g
 {margin-left:-47px;}
-
+#pass_word_f_e{margin-left:86px;}
+#firstname_f_e{margin-left:361px;}
+#last_name_f_e{margin-left:269px;}
+#email_f_e{margin-left:352px;}
+#dateofbirth_f_e{margin-left:225px;}
+#username_f_e{margin-left:242px;}
+#password_f_e{margin-left:242px;}
 #page-bottom_e_f
 {margin-left:0px !important;
 	position: relative;
