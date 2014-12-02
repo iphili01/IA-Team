@@ -211,8 +211,10 @@ height: 100px;
 	font-size: 1em;
 	text-shadow: 0 1px 1px #3E3E3E;
 }
-
+.menu_egrafi_french{
+	margin-left:-26px;}
 #menu {
+	margin-left: -22px;
 	padding: 0 45px 0 45px;
 	position: relative;
 	background: #209D9D url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img02.gif) repeat-x top left;
@@ -613,9 +615,9 @@ color: #FFFFFF;
 	}
 .box_main_translate
 {
-	margin-top: -783px;
-margin-left: 516px;
-width: 327px;}
+	margin-top: -822px;
+margin-left: 549px;
+width: 401px;}
 
 #advantage_translate
 {
@@ -625,8 +627,8 @@ margin-top: 284px;}
 #skopos_translate
 {
 	margin-top: -472px;
-margin-left: 541px;
-width: 327px;
+margin-left: 584px;
+width: 368px;
 }
 #id_translate{
 	margin-left: 252px;
