@@ -2,7 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-
+.eggrafi_french_greek{
+margin-left: -35px;
+}
+menu_logoi_eggrafi_french_greek{
+margin-left: -26px;}
 
 a {
 	text-decoration: none;
@@ -316,12 +320,32 @@ height: 100px;
 #page #content img{
   	padding: 5px;
 	border: 0px}
-	
+	#pass_word_sindesi_french_greek{
+		margin-left:36px;
+		}
+		#username_f_g
+		{	
+		margin-left: 266px;
+		}
+		
+		#name_first{margin-left:408px;}
+		#last_name_f_g{margin-left: 332px;}
+		#email_f_g{margin-left: 271px;}
+		#dateofbirth_f_g{margin-left: 205px;}
+		#password_f_g{margin-left: 224px;}
+		
+		#name_first{margin-left:241px;}
+		#last_name_e_f{margin-left:149px;}
+		#email_e_f{margin-left:232px;}
+		#dateofbirth_e_f{margin-left:104px;}
+		#username_e_f{margin-left:122px;}
+		#password_e_f{margin-left:120px;}
+		#pass_word_sindesi_e_F{margin-left:66px;}
 #page-bottom {
-	margin-left:130px;
+	margin-left:128px !important;
 	position: relative;
 	margin: 0;
-	background:#6E6E6E url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img03.jpg) top left no-repeat;
+	background:#6E6E6E url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img03.jpg)top left no-repeat;
 	border: solid 1px #7E7E7E;
 	width:999px;
 	padding:15px 45px 0 45px;
@@ -607,15 +631,21 @@ table.mytable1 td {
 	background-color: #209D9D;
 width: 169px;
 height: 210px;
-margin-top: -1153px;
+margin-top: -1053px;
 margin-left: 7px;
 text-shadow: 0 1px 1px #007D7D;
 border-top: solid 1px #5AD7D7;
 color: #FFFFFF;
 	}
+	#dateofbirth_g_f{margin-left:155px;}
+	#email_g_f{margin-left:222px;}
+	#last_name_g_f{margin-left:282px;}
+	#firstname_g_f{margin-left:361px;}
+	#password_g_f{margin-left:171px;}
+	#username_g_f{margin-left:216px;}
 .box_main_translate
 {
-	margin-top: -822px;
+	margin-top: -789px;
 margin-left: 549px;
 width: 401px;}
 
@@ -624,6 +654,8 @@ width: 401px;}
 	margin-left: 526px;
 width: 327px;
 margin-top: 284px;}
+#skopos_translate_f_g
+{margin-left:-47px;}
 #skopos_translate
 {
 	margin-top: -472px;
